@@ -33,7 +33,7 @@ Once you've confirmed these prerequisites, proceed with the following steps to s
 ### Environment Variables
 
 For `.env` file.
-- The `ACCESS_TOKEN_SECRET` variable to sign JSON Web Tokens (JWTs) for user authentication and authorization.
+- The `ACCESS_TOKEN_SECRET` variable is used to sign JSON Web Tokens (JWTs) for user authentication and authorization.
 - The `CONNECTION_STRING` variable is used to establish a connection to a MongoDB database using the Mongoose library. 
 - The `PORT` variable is used to specify the port number on which the Express.js server will listen for incoming HTTP requests.
 
